@@ -1,3 +1,4 @@
+
 new Swiper(".swiper-container", {
     direction: "vertical",
     loop: true,
@@ -6,7 +7,6 @@ new Swiper(".swiper-container", {
             slideAry = swipe.slides;
         [].forEach.call(slideAry, function (item, index) {
             if (index == n) {
-              /*  item.id = index == 1 || index == 3 ? "page1" : "page2";*/
                 if(index==1){
                     item.id="page1";
                 }else if(index==2){
@@ -17,6 +17,8 @@ new Swiper(".swiper-container", {
                     item.id="page4";
                 }else if(index==5){
                     item.id="page1";
+                }else if(index==0){
+                    item.id="page4";
                 }
                 return;
             }

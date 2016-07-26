@@ -10,12 +10,10 @@ html {
     font-size: 100px;
 }
 
-/*--初始化Swiper的样式--*/
 .swiper-container, .swiper-wrapper, .swiper-slide {
     height: 100%;
 }
 
-/*--音乐--*/
 .music {
     display: none;
     position: absolute;
@@ -56,6 +54,7 @@ html {
 }
 
 /*--第一屏幕--*/
+
 .page1 {
     position: relative;
     background: url("../img/1.jpg") no-repeat;
@@ -82,12 +81,12 @@ html {
 
 .page1 img:nth-child(4) {
     top: 1.5rem;
-    right: .7rem;
+    left: 1.3rem;
 }
 
 .page1 img:nth-child(5) {
     top: 1.1rem;
-    right: -0.1rem;
+    left: 2.2rem;
 }
 /*-----------------------------------*/
 .page1 img:nth-child(6){
@@ -103,12 +102,12 @@ html {
 .page1 img:nth-child(8){
     opacity: 0;
     top: 2.2rem;
-    right: 1.3rem;
+    left: 1.6rem;
 }
 .page1 img:nth-child(9){
     opacity: 0;
     top: 2.6rem;
-    right: .65rem;
+    left: 2.2rem;
 }
 /*第一屏动画*/
 
@@ -170,8 +169,8 @@ html {
     left: .2rem;
 }
 .page2 img:nth-child(3){
-    bottom: 1rem;
-    right: .1rem;
+    top: 4rem;
+    left: 1rem;
 }
 .page2 span{
     font-size: 16px;
@@ -352,7 +351,7 @@ html {
 }
 .page4 img:nth-child(4){
     top: 1.2rem;
-    right: .5rem;
+    left: 1rem;
 }
 .page4 img:nth-child(5){
     top: 3rem;
